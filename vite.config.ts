@@ -8,7 +8,7 @@ import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
 
 export default defineConfig({
-  base: '/Web3LearningMap/',
+  base: '/Web3LearningMap-20251227/',
   plugins,
   resolve: {
     alias: {
